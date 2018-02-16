@@ -3,10 +3,10 @@ var express = require('express'),
   logger = require('morgan'),
   server = require('./server.js');
 
-var callbackUrl = 'http://localhost:3000/oauth/callback',
+var callbackUrl = '<Replace this with callbackurl>',
   consumerKey =
-    '3MVG9JZ_r.QzrS7jcijyU6XYYRWDp_u85CBPwif..D8tAjOb7P.LPcSF2bYL3egRlDwrf2HAR55u4bp0S0KjW',
-  consumerSecret = '6981024604634838447';
+    '<replace this with consumer key>',
+  consumerSecret = '<replace this with consumer secret>';
 
 var app = express();
 app.get('/', function(request, response) {
