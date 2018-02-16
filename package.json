@@ -36,7 +36,7 @@
     "lint-style-report": "stylelint --syntax scss \"src/**/*.scss\" > report/stylelint.xml",
     "prettier": "NODE_ENV=development prettier-eslint --write \"src/**/*.js\"",
     "tree": "react-scripts tree",
-    "sf-dev": "react-scripts build && node app.js"
+    "sf-dev": "react-scripts build && node ./src/node/server.js"
   },
   "devDependencies": {
     "enzyme": "^3.3.0",

@@ -4,8 +4,8 @@ import APICall from 'components/APICall';
 import { apiSFFetchData } from 'actions/SFCall';
 
 const mapStateToProps = (state) => ({
-  data: state.SFAPICall.data,
-  hasLoaded: state.SFAPICall.hasLoaded,
+  data: state.SFCall.data,
+  hasLoaded: state.SFCall.hasLoaded,
 });
 
 const mapDispatchToProps = (dispatch) => ({
